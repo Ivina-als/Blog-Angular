@@ -1,0 +1,17 @@
+.container__menu-title {
+  color: #fff;
+}
+
+.container__menu-title > h1 {
+  margin: 15px 0;
+  font-size: 15vw; /*Assim o texto do menu title fica responsivo - antes: 135px*/
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container__menu-title > hr {
+  margin: 20px 5px;
+  border-color: #0303038c;
+}
