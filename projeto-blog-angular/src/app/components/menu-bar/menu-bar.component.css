@@ -1,0 +1,54 @@
+section {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+nav {
+  width: 85vw;
+  display: flex;
+  padding: 0 10px 0 10px;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin: 0 20px 0 20px;
+  cursor: pointer;
+}
+
+.logo__circle {
+  position: absolute;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    49deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  opacity: 0.9;
+}
+
+.logo__wheel {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: none;
+}
